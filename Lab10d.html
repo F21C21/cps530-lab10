@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CPS530 Lab 10 – Tailwind CSS Framework Demo</title>
+
+<!-- Install Tailwind via CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+<!-- Page Container -->
+<div class="max-w-3xl mx-auto py-10 px-6">
+
+    <h1 class="text-4xl font-bold text-blue-600 mb-6">
+        CPS530 Lab 10 – Tailwind CSS Framework Webpage
+    </h1>
+
+    <!-- Section 1 -->
+    <h2 class="text-2xl font-semibold mt-6 mb-2 text-gray-700">1. Framework I Chose</h2>
+    <p class="mb-4">
+        For this project, I chose the <strong>Tailwind CSS</strong> framework. 
+        It is a utility-first CSS framework that allows fast styling using predefined classes.
+        Tailwind is allowed in this assignment because only Bootstrap and jQuery are restricted.
+    </p>
+
+    <!-- Section 2 -->
+    <h2 class="text-2xl font-semibold mt-6 mb-2 text-gray-700">2. How I Installed the Framework</h2>
+    <p class="mb-4">
+        I installed Tailwind CSS using the simplest method: the <strong>CDN link</strong>. 
+        This method requires no compilation, no Node.js, and no backend configuration.
+        I simply added the following line inside the <code>&lt;head&gt;</code> section:
+    </p>
+
+    <pre class="bg-gray-900 text-green-300 p-4 rounded-lg overflow-x-auto">
+&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;
+    </pre>
+
+    <p class="mt-3">
+        After adding this line, all Tailwind utility classes became available instantly.
+    </p>
+
+    <!-- Section 3 -->
+    <h2 class="text-2xl font-semibold mt-6 mb-2 text-gray-700">3. How I Built This Page</h2>
+    <p class="mb-4">
+        I created a new GitHub repository, added this <code>index.html</code> file, 
+        and enabled GitHub Pages to host it online. Tailwind CSS styling automatically works 
+        because the CDN loads the framework directly in the browser.
+    </p>
+
+    <!-- Section 4 -->
+    <h2 class="text-2xl font-semibold mt-6 mb-2 text-gray-700">4. Difficulties I Encountered</h2>
+    <ul class="list-disc ml-6 mb-4">
+        <li>I initially did not know that GitHub Pages requires enabling "Deploy from Branch" before the site becomes public.</li>
+        <li>I was not familiar with Tailwind class names, and there were many utility classes to learn.</li>
+        <li>Sometimes Tailwind styles did not refresh immediately because of browser caching.</li>
+    </ul>
+
+    <!-- Section 5 -->
+    <h2 class="text-2xl font-semibold mt-6 mb-2 text-gray-700">5. How I Solved These Issues</h2>
+    <ul class="list-disc ml-6 mb-4">
+        <li>I checked GitHub documentation and turned on GitHub Pages correctly.</li>
+        <li>I referred to Tailwind’s official documentation and copied example classes.</li>
+        <li>I force refreshed the browser using <strong>Ctrl + Shift + R</strong> to clear cache.</li>
+    </ul>
+
+    <!-- Section 6 -->
+    <h2 class="text-2xl font-semibold mt-6 mb-2 text-gray-700">6. Tailwind CSS Demo Elements</h2>
+
+    <!-- Demo Card -->
+    <div class="bg-white shadow-lg rounded-xl p-6 mt-4">
+        <h3 class="text-xl font-bold text-blue-500 mb-2">Tailwind Styled Card</h3>
+        <p class="text-gray-700">This is an example UI component styled entirely using Tailwind CSS utility classes.</p>
+        <button class="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
+            A Tailwind Button
+        </button>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-10 text-center text-gray-500">
+        Created for CPS530 Lab 10 – by Zhuangzhuang (Allen) Li
+    </footer>
+
+</div>
+
+</body>
+</html>
